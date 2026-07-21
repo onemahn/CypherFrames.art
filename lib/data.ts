@@ -1,9 +1,9 @@
 export type Category =
-  | 'Wedding'
+ // | 'Wedding'
   | 'Portrait'
-  | 'Commercial'
+  //| 'Commercial'
   | 'Events'
-  | 'Travel'
+ // | 'Travel'
   | 'Lifestyle';
 
 export interface PortfolioImage {
@@ -55,11 +55,11 @@ export const portfolioImages: PortfolioImage[] = [
 ];
 
 export const categories: Category[] = [
-  'Wedding',
+  //'Wedding',
   'Portrait',
-  'Commercial',
+  //'Commercial',
   'Events',
-  'Travel',
+ // 'Travel',
   'Lifestyle',
 ];
 
