@@ -52,7 +52,7 @@ export function Hero({ onNavigate }: HeroProps) {
           className="mb-6 font-sans text-[11px] uppercase tracking-luxe text-accent md:text-xs"
         >
           <span className="mr-3 inline-block h-px w-8 align-middle bg-accent/60" />
-          Premium Photography Studio
+          CYPHERFRAMES
           <span className="ml-3 inline-block h-px w-8 align-middle bg-accent/60" />
         </motion.span>
 

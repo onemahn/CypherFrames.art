@@ -30,7 +30,7 @@ export const portfolioImages: PortfolioImage[] = [
   // Portrait
   { id: 'p1', src: local('p1.jpg'), alt: 'Black and white fashion portrait of woman', category: 'Portrait', title: 'Monochrome Muse', span: 'tall' },
   { id: 'p2', src: local('p2.jpg'), alt: 'Stylish fashion portrait of a confident woman', category: 'Portrait', title: 'Studio Confidence', span: 'wide' },
-  // { id: 'p3', src: px('36047440', 1200, 1500), alt: 'Elegant portrait of woman in artistic fashion', category: 'Portrait', title: 'Artistic Drift', span: 'normal' },
+ { id: 'p3', src: local('p3.jpg'), alt: 'Elegant portrait of woman in artistic fashion', category: 'Portrait', title: 'Artistic Drift', span: 'normal' },
   // { id: 'p4', src: px('22742255', 1200, 1500), alt: 'Fashion portrait editorial', category: 'Portrait', title: 'Editorial Light', span: 'tall' },
 
   // Commercial

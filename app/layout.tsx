@@ -17,7 +17,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://cypherframes.com'),
+  metadataBase: new URL('https://cypherframes.art'),
   title: 'CypherFrames — Capturing Stories. Creating Timeless Frames.',
   description:
     'Premium photography that transforms moments into timeless visual stories. Wedding, portrait, commercial, events, travel and lifestyle photography by CypherFrames.',
