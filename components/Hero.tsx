@@ -4,8 +4,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
 
-const heroImage =
-  'https://images.pexels.com/photos/13010825/pexels-photo-13010825.jpeg?auto=compress&cs=tinysrgb&w=2400';
+const heroImage = '/images/hero.jpg';
 
 interface HeroProps {
   onNavigate: (href: string) => void;
@@ -86,7 +85,7 @@ export function Hero({ onNavigate }: HeroProps) {
         >
           <button
             onClick={() => onNavigate('#contact')}
-            className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-accent px-8 py-4 font-sans text-[11px] font-medium uppercase tracking-wide-luxe text-[#090909] transition-transform duration-300 hover:scale-[1.03] md:px-10"
+            className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-accent px-8 py-4 font-sans text-[11px] font-medium uppercase tracking-wide-luxe text-[#090909] [...]"
           >
             <span className="relative z-10">Book a Shoot</span>
             <ArrowRight className="relative z-10 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
@@ -94,7 +93,7 @@ export function Hero({ onNavigate }: HeroProps) {
           </button>
           <button
             onClick={() => onNavigate('#portfolio')}
-            className="group inline-flex items-center gap-3 rounded-full border border-white/25 px-8 py-4 font-sans text-[11px] font-medium uppercase tracking-wide-luxe text-white backdrop-blur-sm transition-all duration-300 hover:border-white hover:bg-white/5 md:px-10"
+            className="group inline-flex items-center gap-3 rounded-full border border-white/25 px-8 py-4 font-sans text-[11px] font-medium uppercase tracking-wide-luxe text-white backdrop-blur-sm [...]"
           >
             <span>View Portfolio</span>
             <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
