@@ -64,7 +64,7 @@ export const categories: Category[] = [
 ];
 
 export const contactLinks = {
-  instagram: 'https://instagram.com',
-  whatsapp: 'https://wa.me/10000000000',
-  email: 'mailto:hello@cypherframes.com',
+  instagram: 'https://www.instagram.com/cypher.frames/',
+  whatsapp: 'https://wa.me/+917356721229',
+  email: 'mailto:sei@cypherframes.art',
 };
