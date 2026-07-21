@@ -39,9 +39,9 @@ export const portfolioImages: PortfolioImage[] = [
   // { id: 'c3', src: px('29388341', 1200, 1500), alt: 'Elegant fashion portrait with glamorous accessories', category: 'Commercial', title: 'Accessories Noir', span: 'tall' },
 
   // Events
-  { id: 'e1', src: px('8363626', 1600, 1100), alt: 'Concert crowd vibrant lights', category: 'Events', title: 'Electric Nights', span: 'wide' },
-  { id: 'e2', src: px('2147029', 1200, 1500), alt: 'Concert stage lights crowd', category: 'Events', title: 'Stage Symphony', span: 'tall' },
-  { id: 'e3', src: px('13230484', 1600, 1100), alt: 'Festival crowd atmosphere', category: 'Events', title: 'Festival Pulse', span: 'normal' },
+  { id: 'e1', src: local('e1.jpg'), alt: 'Concert crowd vibrant lights', category: 'Events', title: 'Electric Nights', span: 'wide' },
+  { id: 'e2', src: local('e2.jpg'), alt: 'Concert stage lights crowd', category: 'Events', title: 'Stage Symphony', span: 'tall' },
+  { id: 'e3', src: local('e3.jpg'), alt: 'Festival crowd atmosphere', category: 'Events', title: 'Festival Pulse', span: 'normal' },
 
   // Travel
   // { id: 't1', src: px('13010825', 1200, 1500), alt: 'Mountain landscape travel', category: 'Travel', title: 'Elevation', span: 'tall' },
