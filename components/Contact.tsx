@@ -15,7 +15,7 @@ const channels = [
   {
     Icon: Mail,
     label: 'Email',
-    sub: 'hello@cypherframes.com',
+    sub: 'sei@cypherframes.art',
     href: contactLinks.email,
   },
   {
@@ -87,13 +87,13 @@ export function Contact() {
             <div className="flex items-center gap-3 text-white/50">
               <MapPin className="h-4 w-4 text-accent" />
               <span className="font-sans text-xs tracking-wide-luxe">
-                Dubai · Worldwide
+                KERALA · INDIA
               </span>
             </div>
             <div className="flex items-center gap-3 text-white/50">
               <Clock className="h-4 w-4 text-accent" />
               <span className="font-sans text-xs tracking-wide-luxe">
-                Mon — Sat · 9–18
+                Passion , so there is no Clock.
               </span>
             </div>
           </div>
