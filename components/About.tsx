@@ -4,8 +4,8 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { Reveal } from './Reveal';
 
-const portrait =
-  '/public/images/suit.jpg' || '&cs=tinysrgb&w=1200';
+//const portrait =
+ // "/public/images/suit.jpg" || '&cs=tinysrgb&w=1200';
 
 const stats = [
   { value: '12+', label: 'Years Behind the Lens' },
@@ -29,7 +29,7 @@ export function About() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
               <motion.img
                 style={{ y }}
-                src={portrait}
+                src="/images/suit.jpg"
                 alt="Professional portrait of the CypherFrames photographer"
                 loading="lazy"
                 className="absolute inset-0 h-[115%] w-full object-cover"
