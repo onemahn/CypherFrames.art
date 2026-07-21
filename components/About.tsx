@@ -5,7 +5,7 @@ import { useRef } from 'react';
 import { Reveal } from './Reveal';
 
 const portrait =
-  'https://images.pexels.com/photos/22742255/pexels-photo-22742255.jpeg?auto=compress&cs=tinysrgb&w=1200';
+  '/public/images/suit.jpg' || '&cs=tinysrgb&w=1200';
 
 const stats = [
   { value: '12+', label: 'Years Behind the Lens' },
