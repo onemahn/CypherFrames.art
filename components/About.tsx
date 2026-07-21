@@ -8,9 +8,9 @@ import { Reveal } from './Reveal';
  // "/public/images/suit.jpg" || '&cs=tinysrgb&w=1200';
 
 const stats = [
-  { value: '12+', label: 'Years Behind the Lens' },
-  { value: '300+', label: 'Stories Captured' },
-  { value: '40+', label: 'Destinations' },
+  { value: '3+', label: 'Years Behind the Lens' },
+  { value: '150+', label: 'Stories Captured' },
+  { value: '50+', label: 'Destinations' },
 ];
 
 export function About() {

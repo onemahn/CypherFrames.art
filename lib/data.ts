@@ -28,8 +28,8 @@ export const portfolioImages: PortfolioImage[] = [
   //{ id: 'w4', src: px('31522379', 1600, 1100), alt: 'Romantic wedding couple running on forest road', category: 'Wedding', title: 'The First Run', span: 'normal' },
 
   // Portrait
-  { id: "p1", src:"/images/p1.jpg" , alt: 'Black and white fashion portrait of woman', category: 'Portrait', title: 'Monochrome Muse', span: 'tall' },
-  { id: "p2", src:"/images/p2.jpg" , alt: 'Stylish fashion portrait of a confident woman', category: 'Portrait', title: 'Studio Confidence', span: 'wide' },
+  { id: "p1", src:"/images/p1.jpg" , alt: 'KeralaStyle portrait of woman', category: 'Portrait', title: 'Golden Muse', span: 'tall' },
+  { id: "p2", src:"/images/p2.jpg" , alt: 'Clse portrait of a confident woman', category: 'Portrait', title: 'God Confidence', span: 'wide' },
   { id: 'p3', src:"/images/p3.jpg" , alt: 'Elegant portrait of woman in artistic fashion', category: 'Portrait', title: 'Artistic Drift', span: 'normal' },
   //{ id: 'p4', src: , alt: 'Fashion portrait editorial', category: 'Portrait', title: 'Editorial Light', span: 'tall' },
 
