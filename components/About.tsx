@@ -37,7 +37,7 @@ export function About() {
               <div className="absolute inset-0 bg-gradient-to-t from-[#090909] via-transparent to-transparent" />
             </div>
             <div className="absolute -bottom-6 -right-2 z-10 hidden border border-white/10 bg-[#0c0c0c] px-8 py-5 backdrop-blur-md md:block">
-              <p className="font-serif text-3xl font-light text-accent">Est. 2012</p>
+              <p className="font-serif text-3xl font-light text-accent">Est. 2022</p>
             </div>
           </Reveal>
 

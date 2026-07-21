@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
 
-const heroImage = '/images/hero.jpg';
+//const heroImage = '/images/hero.jpg';
 
 interface HeroProps {
   onNavigate: (href: string) => void;
@@ -32,7 +32,7 @@ export function Hero({ onNavigate }: HeroProps) {
         className="absolute inset-0 z-0"
       >
         <img
-          src={heroImage}
+          src="/images/hero.jpg"
           alt="Cinematic mountain landscape at dawn"
           className="h-full w-full object-cover"
           fetchPriority="high"
