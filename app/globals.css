@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 3.5%;
+    --foreground: 0 0% 100%;
+    --secondary-text: 0 0% 75%;
+    --accent: 45 62% 47%;
+    --border: 0 0% 16%;
+    --radius: 0.25rem;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #090909;
+    color: hsl(var(--foreground));
+    font-family: var(--font-inter), system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background-color: rgba(201, 162, 39, 0.25);
+    color: #ffffff;
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: var(--font-cormorant), Georgia, serif;
+  }
+  .text-accent {
+    color: #c9a227;
+  }
+  .bg-accent {
+    background-color: #c9a227;
+  }
+  .border-accent {
+    border-color: #c9a227;
+  }
+  .text-secondary {
+    color: #bfbfbf;
+  }
+
+  .tracking-luxe {
+    letter-spacing: 0.35em;
+  }
+  .tracking-wide-luxe {
+    letter-spacing: 0.2em;
+  }
+
+  /* Hide scrollbar for category pills */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .gold-line {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(201, 162, 39, 0.6),
+      transparent
+    );
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090909;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c9a227;
+}
+
+/* Lenis-style smooth scroll fallback */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
