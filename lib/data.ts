@@ -28,8 +28,8 @@ export const portfolioImages: PortfolioImage[] = [
   // { id: 'w4', src: px('31522379', 1600, 1100), alt: 'Romantic wedding couple running on forest road', category: 'Wedding', title: 'The First Run', span: 'normal' },
 
   // Portrait
-  { id: 'p1', src: local('p1.jpg'), alt: 'Black and white fashion portrait of woman', category: 'Portrait', title: 'Monochrome Muse', span: 'tall' },
-  { id: 'p2', src: local('p2.jpg'), alt: 'Stylish fashion portrait of a confident woman', category: 'Portrait', title: 'Studio Confidence', span: 'wide' },
+  { id: 'p1', src: local('/images/p1.jpg'), alt: 'Black and white fashion portrait of woman', category: 'Portrait', title: 'Monochrome Muse', span: 'tall' },
+  { id: 'p2', src: local('/images/p2.jpg'), alt: 'Stylish fashion portrait of a confident woman', category: 'Portrait', title: 'Studio Confidence', span: 'wide' },
   // { id: 'p3', src: px('36047440', 1200, 1500), alt: 'Elegant portrait of woman in artistic fashion', category: 'Portrait', title: 'Artistic Drift', span: 'normal' },
   // { id: 'p4', src: px('22742255', 1200, 1500), alt: 'Fashion portrait editorial', category: 'Portrait', title: 'Editorial Light', span: 'tall' },
 
@@ -39,9 +39,9 @@ export const portfolioImages: PortfolioImage[] = [
   // { id: 'c3', src: px('29388341', 1200, 1500), alt: 'Elegant fashion portrait with glamorous accessories', category: 'Commercial', title: 'Accessories Noir', span: 'tall' },
 
   // Events
-  { id: 'e1', src: local('e1.jpg'), alt: 'Concert crowd vibrant lights', category: 'Events', title: 'Electric Nights', span: 'wide' },
-  { id: 'e2', src: local('e2.jpg'), alt: 'Concert stage lights crowd', category: 'Events', title: 'Stage Symphony', span: 'tall' },
-  { id: 'e3', src: local('e3.jpg'), alt: 'Festival crowd atmosphere', category: 'Events', title: 'Festival Pulse', span: 'normal' },
+  { id: 'e1', src: local('/images/e1.jpg'), alt: 'Concert crowd vibrant lights', category: 'Events', title: 'Electric Nights', span: 'wide' },
+  { id: 'e2', src: local('/images/e2.jpg'), alt: 'Concert stage lights crowd', category: 'Events', title: 'Stage Symphony', span: 'tall' },
+  { id: 'e3', src: local('/images/e3.jpg'), alt: 'Festival crowd atmosphere', category: 'Events', title: 'Festival Pulse', span: 'normal' },
 
   // Travel
   // { id: 't1', src: px('13010825', 1200, 1500), alt: 'Mountain landscape travel', category: 'Travel', title: 'Elevation', span: 'tall' },
